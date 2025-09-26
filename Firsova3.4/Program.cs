@@ -16,7 +16,7 @@
             //else
             //    next = TrafficLight.Green;
             //Console.WriteLine($"После {current} будет {next}");
-            
+
         }
     }
 }
