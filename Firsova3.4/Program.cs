@@ -1,6 +1,9 @@
-﻿namespace Firsova3._4
+﻿using Microsoft.VisualBasic;
+
+namespace Firsova3._4
 {
     enum TrafficLight { Red, Yellow, Green }
+    enum OrderStatus { New, Processing, Shipped, Delivered }
     internal class Program
     {
         static void Main(string[] args)
@@ -17,6 +20,12 @@
             //    next = TrafficLight.Green;
             //Console.WriteLine($"После {current} будет {next}");
 
+            //2
+            //bool canOR(OrderStatus status) => status == OrderStatus.New || status == OrderStatus.Processing;
+            //Console.Write($"New:{canOR(OrderStatus.New)} ");
+            //Console.Write($"Processing:{canOR(OrderStatus.Processing)} ");
+            //Console.Write($"Shipped:{canOR(OrderStatus.Shipped)} ");
+            //Console.Write($"Delivered:{canOR(OrderStatus.Delivered)}");
         }
     }
 }
