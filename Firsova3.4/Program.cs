@@ -93,11 +93,18 @@ namespace Firsova3._4
 
             //ДЗ 4
             //1
-           string[] m = { "sword", "shield", "potion", "sword", "potion", "potion" };
-           foreach (string i in m)
-           {
-                Console.WriteLine(i);
-           }
+            //string[] m = { "sword", "shield", "potion", "sword", "potion", "potion" };
+            //foreach (string i in m)
+            //{
+            //     Console.WriteLine(i);
+            //}
+            //2
+            int[] m = { 10, 20, 15, 30, 25 };
+            int c = 0;
+            for (int i = 0; i < m.Length; i++) {
+                c += m[i];
+            }
+            Console.WriteLine($"Общее количество очков: {c}");
         }
     }
        
