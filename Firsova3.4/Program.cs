@@ -131,6 +131,17 @@ namespace Firsova3._4
             //    }
             //}
             //Console.WriteLine($"{x} четных и {y} нечетных");
+            //5
+            int[] m = { 120, 95, 110, 105, 100 };
+            int max = m[0];
+            for (int i = 1; i < m.Length; i++)
+            {
+              if (m[i] < max)
+              {
+             max = m[i];
+              }
+            }
+            Console.WriteLine($"{max} секунд");
         }
     }
        
