@@ -45,6 +45,12 @@ namespace Firsova3._4
             //       Console.WriteLine("Запомни: всего одна ошибка и ты ошибся.");
             //    i++;
             //}
+            //6
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= n; i++)
+            //{
+            //    Console.WriteLine($"Квадрат числа {i} равен {i*i}");
+            //}
         }
     }
 }
