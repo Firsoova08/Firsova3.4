@@ -71,25 +71,33 @@ namespace Firsova3._4
             //        }
             //    Console.WriteLine(a ? "YES" : "NO");
             //9
-            int shot = 0;
+            //int shot = 0;
 
-            for (int i = 1; i <= 3; i++)
-            {
-                Console.WriteLine("Выстрел совершен");
-                shot++;
-                Console.WriteLine($"Израсходовано боезапасов: {shot}");
-                if (i < 3)
-                {
-                    Console.Write("Нажмите Enter для выстрела: ");
-                    string input = Console.ReadLine();
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    Console.WriteLine("Выстрел совершен");
+            //    shot++;
+            //    Console.WriteLine($"Израсходовано боезапасов: {shot}");
+            //    if (i < 3)
+            //    {
+            //        Console.Write("Нажмите Enter для выстрела: ");
+            //        string input = Console.ReadLine();
 
-                    if (input?.ToLower() == "стоп")
-                    {
-                        Console.WriteLine("Огонь прекращен!");
-                        break;
-                    }
-                }
-            }
+            //        if (input?.ToLower() == "стоп")
+            //        {
+            //            Console.WriteLine("Огонь прекращен!");
+            //            break;
+            //        }
+            //    }
+            //}
+
+            //ДЗ 4
+            //1
+           string[] m = { "sword", "shield", "potion", "sword", "potion", "potion" };
+           foreach (string i in m)
+           {
+                Console.WriteLine(i);
+           }
         }
     }
        
