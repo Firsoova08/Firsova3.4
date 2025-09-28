@@ -58,6 +58,21 @@ namespace Firsova3._4
             //{
             //    Console.WriteLine(s);
             //}
+            //8
+        //     bool a = true;
+        //        for (int i = 0; i < 10; i++)
+        //        {
+        //            int number = int.Parse(Console.ReadLine());
+
+        //            if (number % 2 != 0)
+        //            {
+        //                a = false;
+        //            }
+        //        }
+        //    Console.WriteLine(a ? "YES" : "NO");
         }
     }
+       
 }
+    
+
