@@ -116,6 +116,21 @@ namespace Firsova3._4
             //  }
             //}
             //Console.WriteLine(max);
+            //4
+            //int[] m= { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //int x = 0;
+            //int y=0;
+            //for (int i = 0; i < m.Length; i++) {
+
+            //    if (m[i] % 2 == 0) {
+            //        x++;
+            //    }
+            //    else
+            //    {
+            //        y++;
+            //    }
+            //}
+            //Console.WriteLine($"{x} четных и {y} нечетных");
         }
     }
        
