@@ -59,17 +59,37 @@ namespace Firsova3._4
             //    Console.WriteLine(s);
             //}
             //8
-        //     bool a = true;
-        //        for (int i = 0; i < 10; i++)
-        //        {
-        //            int number = int.Parse(Console.ReadLine());
+            //     bool a = true;
+            //        for (int i = 0; i < 10; i++)
+            //        {
+            //            int number = int.Parse(Console.ReadLine());
 
-        //            if (number % 2 != 0)
-        //            {
-        //                a = false;
-        //            }
-        //        }
-        //    Console.WriteLine(a ? "YES" : "NO");
+            //            if (number % 2 != 0)
+            //            {
+            //                a = false;
+            //            }
+            //        }
+            //    Console.WriteLine(a ? "YES" : "NO");
+            //9
+            int shot = 0;
+
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine("Выстрел совершен");
+                shot++;
+                Console.WriteLine($"Израсходовано боезапасов: {shot}");
+                if (i < 3)
+                {
+                    Console.Write("Нажмите Enter для выстрела: ");
+                    string input = Console.ReadLine();
+
+                    if (input?.ToLower() == "стоп")
+                    {
+                        Console.WriteLine("Огонь прекращен!");
+                        break;
+                    }
+                }
+            }
         }
     }
        
