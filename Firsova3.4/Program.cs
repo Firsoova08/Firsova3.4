@@ -26,6 +26,18 @@ namespace Firsova3._4
             //Console.Write($"Processing:{canOR(OrderStatus.Processing)} ");
             //Console.Write($"Shipped:{canOR(OrderStatus.Shipped)} ");
             //Console.Write($"Delivered:{canOR(OrderStatus.Delivered)}");
+
+            //3
+            //for(int i = 10; i >= 1; i--)
+            //   {
+            //       Console.WriteLine(i);
+            //   }
+
+            //4
+           // for (int i = 1; i <= 10; i++)
+           //{
+           //    Console.WriteLine($"5*{i}={5*i}");
+           // }
         }
     }
 }
