@@ -34,10 +34,17 @@ namespace Firsova3._4
             //   }
 
             //4
-           // for (int i = 1; i <= 10; i++)
-           //{
-           //    Console.WriteLine($"5*{i}={5*i}");
-           // }
+            // for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine($"5*{i}={5*i}");
+            // }
+            //5
+            //int i = 0;
+            //while (i < 10)
+            //{
+            //       Console.WriteLine("Запомни: всего одна ошибка и ты ошибся.");
+            //    i++;
+            //}
         }
     }
 }
