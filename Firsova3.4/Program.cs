@@ -99,12 +99,23 @@ namespace Firsova3._4
             //     Console.WriteLine(i);
             //}
             //2
-            int[] m = { 10, 20, 15, 30, 25 };
-            int c = 0;
-            for (int i = 0; i < m.Length; i++) {
-                c += m[i];
-            }
-            Console.WriteLine($"Общее количество очков: {c}");
+            //int[] m = { 10, 20, 15, 30, 25 };
+            //int c = 0;
+            //for (int i = 0; i < m.Length; i++) {
+            //    c += m[i];
+            //}
+            //Console.WriteLine($"Общее количество очков: {c}");
+            //3
+            //int[] m = { 1, 3, 7, 2, 5 };
+            //int max = m[0];
+            //for (int i = 1; i < m.Length; i++)
+            //{
+            //  if (m[i] > max)
+            //  {
+            // max = m[i];
+            //  }
+            //}
+            //Console.WriteLine(max);
         }
     }
        
