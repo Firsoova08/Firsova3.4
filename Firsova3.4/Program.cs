@@ -177,7 +177,13 @@ namespace Firsova3._4
             //    }
             //}
             //Console.WriteLine($"[{string.Join(",", m)}]");
-
+            //9
+            //string[] k = { "Garrus", "Tali", "Mordin", "Grunt", "Jack" };
+            //string[] v = { "Лидер команды", "Техник", "Биотик", "Солдат", "Поддержка"};
+            //for (int i = 0; i < k.Length; i++)
+            //{
+            //    Console.WriteLine($"{k[i]}: {v[i]}");
+            //}
         }
     }
        
