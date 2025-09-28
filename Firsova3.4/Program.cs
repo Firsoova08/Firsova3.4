@@ -158,6 +158,14 @@ namespace Firsova3._4
             //    }
             //}
             //Console.WriteLine($"{w} победы и {l} поражения");
+            //7
+            int[] m = { 15, 20, 25, 30, 10 };
+            int sum = 0;
+            for (int i = 0; i < m.Length; i++)
+            {
+                sum += m[i];
+            }
+            Console.WriteLine(sum/m.Length);
         }
     }
        
