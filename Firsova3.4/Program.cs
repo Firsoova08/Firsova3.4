@@ -51,6 +51,13 @@ namespace Firsova3._4
             //{
             //    Console.WriteLine($"Квадрат числа {i} равен {i*i}");
             //}
+            //7
+            //string s = Console.ReadLine();
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.WriteLine(s);
+            //}
         }
     }
 }
